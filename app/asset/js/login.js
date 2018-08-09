@@ -1,0 +1,10 @@
+/*
+
+    validate input
+    call the auth service
+    if succesful
+        store token
+        redirect to dashboard
+    else
+        parse error
+*/
