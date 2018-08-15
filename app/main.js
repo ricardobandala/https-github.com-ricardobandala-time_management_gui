@@ -5,9 +5,10 @@ let window;
 function createWindow () {
 
     window = new BrowserWindow({modal:true, frame: false, webPreferences: {devTools: false}});
-    // let path =  app.getAppPath();
-    const path = require('path');
-    window.loadFile('index.html');
+
+    window.loadFile('view//login.html');
+
+    let wala = app.getAppPath()
 
     window.on('closed', () => {
         window = null
